@@ -85,7 +85,7 @@ class _MyHomePageState extends State<MyHomePage> {
         itemBuilder: (context, index) {
           return ListTile(
             leading: FlutterLogo(),
-            title: Text(contacts[index].displayName ?? "noname"),
+            title: Text(contacts[index].givenName ?? "noname"),
           );
           //Container(child: contacts[index].givenName);
         },
